@@ -1,0 +1,5 @@
+rsrcfork (1.8.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Michael Mohr <akihana@gmail.com>  Wed, 07 Apr 2021 23:09:46 -0700

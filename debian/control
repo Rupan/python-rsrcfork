@@ -1,0 +1,19 @@
+Source: rsrcfork
+Section: python
+Priority: optional
+Maintainer: Michael Mohr <akihana@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools, python3-all
+Standards-Version: 4.4.1
+Homepage: https://pypi.org/project/rsrcfork/
+Vcs-Browser: https://github.com/dgelessus/python-rsrcfork
+Vcs-Git: https://github.com/dgelessus/python-rsrcfork.git
+#Testsuite: autopkgtest-pkg-python
+
+Package: python3-rsrcfork
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-rsrcfork-doc
+Description: <insert up to 60 chars description> (Python 3)
+ <insert long description, indented with spaces>
+ .
+ This package installs the library for Python 3.
